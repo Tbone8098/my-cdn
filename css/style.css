@@ -1,0 +1,282 @@
+:root {
+    --color-1: #3d5a80;
+    --color-2: #98c1d9;
+    --color-3: #e0fbfc;
+    --color-4: #ee6c4d;
+    --color-5: #293241;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+
+
+/***************************** Nav *****************************/
+
+nav {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: var(--color-5);
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+    width: 100%;
+    
+    background: var(--color-3);
+    border-radius: 1em;
+    box-shadow: 2px 2px 2px black;
+}
+
+.nav-btn:hover {
+    background-color: var(--color-4);
+    color: var(--color-3);
+}
+
+.nav-btn img {
+    width: 5em;
+}
+
+/* inner nav */
+.inner-nav {
+    background: var(--color-1);
+    height: 100%;
+}
+
+
+/**********************************************************************/
+/**************************** Applications ****************************/
+/**********************************************************************/
+
+/***************************** Keep Track *****************************/
+
+.item-header{
+    margin: 0 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* menus */
+.ul-menu {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    list-style-type: none;
+}
+.ul-menu-row {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+
+    list-style-type: none;
+}
+
+/*************************** Family Matters ***************************/
+
+.login-section{
+    padding: 1em;
+
+    width: fit-content;
+
+    border-radius: 1em;
+    background: var(--color-5);
+    box-shadow: 4px 4px 4px black;
+}
+
+/***************************** Modal *****************************/
+
+.my-modal-wrapper {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+.my-modal {
+    position: relative;
+    top: 0;
+    min-width: 50vw;
+
+    padding: 1em;
+    margin: 1em;
+    
+    background-color: white;
+    border-radius: 1em;
+}
+
+.my-modal-header {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 0.5em 1em 0.5em;
+}
+
+
+/***************************** utilities *****************************/
+/* a tags */
+.no-a-tag {
+    text-decoration: none;
+}
+/* on hover */
+.hidden {
+    opacity: 0;
+}
+
+.hidden-parent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fixed-center {
+    position: absolute;
+    text-align: center;
+}
+
+
+/* looks */
+.box {
+    border-radius: 1em;
+}
+.box-top {
+    border-radius: 1em 1em 0 0;
+}
+.solid {
+    border: 0.15em solid black;
+}
+.dotted {
+    border: 0.15em dotted black;
+}
+.strike {
+    text-decoration: line-through;
+}
+.shadow {
+    box-shadow: 2px 2px black !important;
+}
+
+/* buttons */
+
+.btn{
+    border: 0;
+    border-radius: 1.5em;
+}
+
+.btn-primary {
+    background: var(--color-4);
+}
+.btn-secondary{
+    background: var(--color-2);
+    color: var(--color-5);
+}
+/* .btn-warning
+.btn-danger  */
+
+.btn:hover {
+    background: var(--color-1);
+    color: var(--color-4);
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+/* colors */
+.bg-1 {
+    background-color: var(--color-1);
+}
+.bg-2 {
+    background-color: var(--color-2);
+}
+.bg-3 {
+    background-color: var(--color-3);
+}
+.bg-4 {
+    background-color: var(--color-4);
+}
+.bg-5 {
+    background-color: var(--color-5);
+}
+.txt-1 {
+    color: var(--color-1);
+}
+.txt-2 {
+    color: var(--color-2);
+}
+.txt-3 {
+    color: var(--color-3);
+}
+.txt-4 {
+    color: var(--color-4);
+}
+.txt-5 {
+    color: var(--color-5);
+}
+.hover{
+    border-radius: 1em;
+}
+.hover-txt-1:hover{
+    color: var(--color-1);
+}
+.hover-txt-2:hover{
+    color: var(--color-2);
+}
+.hover-txt-3:hover{
+    color: var(--color-3);
+}
+.hover-txt-4:hover{
+    color: var(--color-4);
+}
+.hover-txt-5:hover{
+    color: var(--color-5);
+}
+.hover-bg-1:hover{
+    background-color: var(--color-1);
+}
+.hover-bg-2:hover{
+    background-color: var(--color-2);
+}
+.hover-bg-3:hover{
+    background-color: var(--color-3);
+}
+.hover-bg-4:hover{
+    background-color: var(--color-4);
+}
+.hover-bg-5:hover{
+    background-color: var(--color-5);
+}
+.hover-bg-danger:hover{
+    /* 220,53,69 */
+    background: rgb(220, 53, 69);
+}
+.hover-none:hover {
+    opacity: 0;
+}
