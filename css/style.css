@@ -141,18 +141,6 @@ nav {
 
 
 /***************************** utilities *****************************/
-.box-solid-1 { 
-    border: 0.15em solid black;
-}
-.box-solid-2 { 
-    border: 0.25em solid black;
-}
-.box-solid-3 { 
-    border: 0.5em solid black;
-}
-.box-solid-4 { 
-    border: 0.1em solid black;
-}
 
 
 /* a tags */
@@ -178,18 +166,35 @@ nav {
 
 
 /* looks */
-.box {
-    border-radius: 1em;
-}
-.box-top {
+
+.pill-top {
     border-radius: 1em 1em 0 0;
 }
-.solid {
+.box-solid-1 { 
     border: 0.15em solid black;
 }
-.dotted {
+.box-solid-2 { 
+    border: 0.25em solid black;
+}
+.box-solid-3 { 
+    border: 0.5em solid black;
+}
+.box-solid-4 { 
+    border: 0.1em solid black;
+}
+.box-dotted-1 { 
     border: 0.15em dotted black;
 }
+.box-dotted-2 { 
+    border: 0.25em dotted black;
+}
+.box-dotted-3 { 
+    border: 0.5em dotted black;
+}
+.box-dotted-4 { 
+    border: 0.1em dotted black;
+}
+
 .strike {
     text-decoration: line-through;
 }
