@@ -141,6 +141,20 @@ nav {
 
 
 /***************************** utilities *****************************/
+.box-solid-1 { 
+    border: 0.15em solid black;
+}
+.box-solid-2 { 
+    border: 0.25em solid black;
+}
+.box-solid-3 { 
+    border: 0.5em solid black;
+}
+.box-solid-4 { 
+    border: 0.1em solid black;
+}
+
+
 /* a tags */
 .no-a-tag {
     text-decoration: none;
